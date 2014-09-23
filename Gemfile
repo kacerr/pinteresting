@@ -27,7 +27,17 @@ gem 'spring',        group: :development
 # Devise for user authentication
 gem 'devise'
 
+# image upload processing
+gem 'paperclip'
+
 gem 'bootstrap-sass'
+
+# jquery effects	
+gem 'masonry-rails'
+
+# let jQuery work nicely with turbolinks
+gem 'jquery-turbolinks'
+
 
 group :development, :test do
      gem 'sqlite3'
